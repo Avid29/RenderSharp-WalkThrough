@@ -1,6 +1,6 @@
 ﻿using System.Numerics;
 
-namespace RenderSharp.CS.Common.Scenes
+namespace RenderSharp.CS.Scenes
 {
     /// <summary>
     /// A Camera for a RenderSharp scene.
