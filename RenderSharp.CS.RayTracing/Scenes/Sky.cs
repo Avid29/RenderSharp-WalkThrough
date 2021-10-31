@@ -1,4 +1,5 @@
-﻿using System.Numerics;
+﻿using RenderSharp.CS.RayTracing.Scenes.Rays;
+using System.Numerics;
 
 namespace RenderSharp.CS.RayTracing.Scenes
 {
@@ -25,6 +26,19 @@ namespace RenderSharp.CS.RayTracing.Scenes
             Sky sky;
             sky.albedo = albedo;
             return sky;
+        }
+
+        /// <summary>
+        /// Gets the color of the sky as hit by a ray.
+        /// </summary>
+        /// <param name="this">The <see cref="Sky"/>being hit.</param>
+        /// <param name="ray">The <see cref="Ray"/> hitting the <see cref="Sky"/.></param>
+        /// <returns>The color of the sky in the hit.</returns>
+        public static Vector4 Color(Sky @this, Ray ray)
+        {
+            Vector3 unitDirection = Vector3.Normalize(ray.direction);
+            float pos = 0.5f * (unitDirection.Y + 1);
+            return pos * @this.albedo + (1 - pos) * Vector4.One; 
         }
     }
 }
