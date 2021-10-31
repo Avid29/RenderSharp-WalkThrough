@@ -1,6 +1,6 @@
 ﻿using System.Numerics;
 
-namespace RenderSharp.CS.RayTracing.Scenes
+namespace RenderSharp.CS.RayTracing.Scenes.Cameras
 {
     /// <summary>
     /// A <see cref="CS.Scenes.Camera"/> for ray tracing.
