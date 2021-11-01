@@ -32,7 +32,7 @@ namespace RenderSharp.CS.RayTracing.Scenes.Cameras
         /// <param name="target">The target of the <see cref="Camera"/>.</param>
         /// <param name="fov">The field of view of the <see cref="Camera"/>.</param>
         /// <returns>A new <see cref="Camera"/> with all the specs stated.</returns>
-        public static Camera CreateCamera(Vector3 origin, Vector3 target, float fov)
+        public static Camera Create(Vector3 origin, Vector3 target, float fov)
         {
             Camera camera;
             camera.origin = origin;

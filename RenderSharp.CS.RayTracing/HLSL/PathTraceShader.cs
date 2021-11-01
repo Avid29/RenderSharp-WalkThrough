@@ -9,7 +9,7 @@ namespace RenderSharp.CS.RayTracing.HLSL
     /// A Shader for path tracing a <see cref="Scene"/>.
     /// </summary>
     [AutoConstructor]
-    public readonly struct PathTraceShader : IComputeShader
+    public readonly partial struct PathTraceShader : IComputeShader
     {
         private readonly Scene scene;
         private readonly IReadWriteTexture2D<Float4> buffer;

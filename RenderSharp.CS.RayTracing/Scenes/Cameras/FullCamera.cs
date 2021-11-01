@@ -66,14 +66,14 @@ namespace RenderSharp.CS.RayTracing.Scenes.Cameras
         /// <summary>
         /// Creates a new <see cref="Ray"/> from the <see cref="FullCamera"/>.
         /// </summary>
-        /// <param name="this">The <see cref="FullCamera"/> emitting the <see cref="Ray"/>.</param>
+        /// <param name="camera">The <see cref="FullCamera"/> emitting the <see cref="Ray"/>.</param>
         /// <param name="u">The local x floating position within the image.</param>
         /// <param name="v">The local y floating position with the image.</param>
         /// <returns>The <see cref="Ray"/> from this <see cref="FullCamera"/> at (u,v).</returns>
-        public static Ray CreateRay(FullCamera @this, float u, float v)
+        public static Ray CreateRay(FullCamera camera, float u, float v)
         {
-            Vector3 origin = @this.origin;
-            Vector3 direction = @this.bottomLeft + u * @this.horizontalComp + v * @this.verticalComp - @this.origin;
+            Vector3 origin = camera.origin;
+            Vector3 direction = camera.bottomLeft + u * camera.horizontalComp + v * camera.verticalComp - camera.origin;
             return Ray.Create(origin, direction);
         }
     }
