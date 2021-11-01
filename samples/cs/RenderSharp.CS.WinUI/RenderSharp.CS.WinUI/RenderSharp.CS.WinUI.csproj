@@ -17,4 +17,10 @@
     <PackageReference Include="Microsoft.ProjectReunion.WinUI" Version="0.8.4" />
     <Manifest Include="$(ApplicationManifest)" />
   </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\RenderSharp.CS.RayTracing\RenderSharp.CS.RayTracing.csproj" />
+    <ProjectReference Include="..\..\..\..\src\cs\RenderSharp.CS.Common\RenderSharp.CS.Common.csproj" />
+    <ProjectReference Include="..\..\..\..\src\cs\RenderSharp.CS\RenderSharp.CS.csproj" />
+  </ItemGroup>
 </Project>
