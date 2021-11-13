@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\RenderSharp.CS.RayTracing\RenderSharp.CS.RayTracing.csproj" />
+    <ProjectReference Include="..\..\..\..\src\cs\Renderers\RenderSharp.CS.RayTracing\RenderSharp.CS.RayTracing.csproj" />
     <ProjectReference Include="..\..\..\..\src\cs\RenderSharp.CS.Common\RenderSharp.CS.Common.csproj" />
     <ProjectReference Include="..\..\..\..\src\cs\RenderSharp.CS\RenderSharp.CS.csproj" />
   </ItemGroup>

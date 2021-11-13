@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31727.386
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RenderSharp.CS", "src\cs\RenderSharp.CS\RenderSharp.CS.csproj", "{BF7C7342-308E-4F8C-8E4B-C989B87EF40A}"
 EndProject
@@ -27,7 +27,7 @@ Project("{C7167F0D-BC9F-4E6E-AFE1-012C56B48DB5}") = "RenderSharp.DX.WinUI (Packa
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Renderers", "Renderers", "{907FBB43-C376-4A2A-A455-F22EEF1D795F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RenderSharp.CS.RayTracing", "RenderSharp.CS.RayTracing\RenderSharp.CS.RayTracing.csproj", "{DED7C7F7-913D-4F1B-94C1-66618264ABC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RenderSharp.CS.RayTracing", "src\cs\Renderers\RenderSharp.CS.RayTracing\RenderSharp.CS.RayTracing.csproj", "{6461D6FA-7855-4109-AFD8-F70F924ACCD5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -144,22 +144,22 @@ Global
 		{DF898D24-0D57-48F0-AD54-E2D02AE4B11B}.Release|x86.ActiveCfg = Release|x86
 		{DF898D24-0D57-48F0-AD54-E2D02AE4B11B}.Release|x86.Build.0 = Release|x86
 		{DF898D24-0D57-48F0-AD54-E2D02AE4B11B}.Release|x86.Deploy.0 = Release|x86
-		{DED7C7F7-913D-4F1B-94C1-66618264ABC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DED7C7F7-913D-4F1B-94C1-66618264ABC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DED7C7F7-913D-4F1B-94C1-66618264ABC9}.Debug|arm64.ActiveCfg = Debug|Any CPU
-		{DED7C7F7-913D-4F1B-94C1-66618264ABC9}.Debug|arm64.Build.0 = Debug|Any CPU
-		{DED7C7F7-913D-4F1B-94C1-66618264ABC9}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{DED7C7F7-913D-4F1B-94C1-66618264ABC9}.Debug|x64.Build.0 = Debug|Any CPU
-		{DED7C7F7-913D-4F1B-94C1-66618264ABC9}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{DED7C7F7-913D-4F1B-94C1-66618264ABC9}.Debug|x86.Build.0 = Debug|Any CPU
-		{DED7C7F7-913D-4F1B-94C1-66618264ABC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DED7C7F7-913D-4F1B-94C1-66618264ABC9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DED7C7F7-913D-4F1B-94C1-66618264ABC9}.Release|arm64.ActiveCfg = Release|Any CPU
-		{DED7C7F7-913D-4F1B-94C1-66618264ABC9}.Release|arm64.Build.0 = Release|Any CPU
-		{DED7C7F7-913D-4F1B-94C1-66618264ABC9}.Release|x64.ActiveCfg = Release|Any CPU
-		{DED7C7F7-913D-4F1B-94C1-66618264ABC9}.Release|x64.Build.0 = Release|Any CPU
-		{DED7C7F7-913D-4F1B-94C1-66618264ABC9}.Release|x86.ActiveCfg = Release|Any CPU
-		{DED7C7F7-913D-4F1B-94C1-66618264ABC9}.Release|x86.Build.0 = Release|Any CPU
+		{6461D6FA-7855-4109-AFD8-F70F924ACCD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6461D6FA-7855-4109-AFD8-F70F924ACCD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6461D6FA-7855-4109-AFD8-F70F924ACCD5}.Debug|arm64.ActiveCfg = Debug|Any CPU
+		{6461D6FA-7855-4109-AFD8-F70F924ACCD5}.Debug|arm64.Build.0 = Debug|Any CPU
+		{6461D6FA-7855-4109-AFD8-F70F924ACCD5}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{6461D6FA-7855-4109-AFD8-F70F924ACCD5}.Debug|x64.Build.0 = Debug|Any CPU
+		{6461D6FA-7855-4109-AFD8-F70F924ACCD5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6461D6FA-7855-4109-AFD8-F70F924ACCD5}.Debug|x86.Build.0 = Debug|Any CPU
+		{6461D6FA-7855-4109-AFD8-F70F924ACCD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6461D6FA-7855-4109-AFD8-F70F924ACCD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6461D6FA-7855-4109-AFD8-F70F924ACCD5}.Release|arm64.ActiveCfg = Release|Any CPU
+		{6461D6FA-7855-4109-AFD8-F70F924ACCD5}.Release|arm64.Build.0 = Release|Any CPU
+		{6461D6FA-7855-4109-AFD8-F70F924ACCD5}.Release|x64.ActiveCfg = Release|Any CPU
+		{6461D6FA-7855-4109-AFD8-F70F924ACCD5}.Release|x64.Build.0 = Release|Any CPU
+		{6461D6FA-7855-4109-AFD8-F70F924ACCD5}.Release|x86.ActiveCfg = Release|Any CPU
+		{6461D6FA-7855-4109-AFD8-F70F924ACCD5}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -174,7 +174,7 @@ Global
 		{2677E8A2-DFDD-4701-97EF-11E066B06EB9} = {CE809EC1-22A5-47AD-B313-B79ABC7613C7}
 		{DF898D24-0D57-48F0-AD54-E2D02AE4B11B} = {CE809EC1-22A5-47AD-B313-B79ABC7613C7}
 		{907FBB43-C376-4A2A-A455-F22EEF1D795F} = {AFF9AA36-C86C-4C98-9F8B-C72C1A45A0B8}
-		{DED7C7F7-913D-4F1B-94C1-66618264ABC9} = {907FBB43-C376-4A2A-A455-F22EEF1D795F}
+		{6461D6FA-7855-4109-AFD8-F70F924ACCD5} = {907FBB43-C376-4A2A-A455-F22EEF1D795F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FD06927A-E675-4AB0-A82B-FB93D0388C25}
