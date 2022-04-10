@@ -24,9 +24,10 @@ namespace RenderSharp.CS.WinUI.Renderer
         }
 
         /// <inheritdoc/>
-        public void Execute(IReadWriteTexture2D<Float4> texture, TimeSpan timespan)
+        public bool TryExecute(IReadWriteNormalizedTexture2D<Float4> texture, TimeSpan timespan, object? parameter)
         {
             _renderer.Render(texture);
+            return true;
         }
     }
 }

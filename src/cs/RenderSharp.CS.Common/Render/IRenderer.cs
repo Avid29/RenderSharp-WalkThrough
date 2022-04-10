@@ -11,6 +11,6 @@ namespace RenderSharp.CS.Render
         /// Renders directly to the output buffer.
         /// </summary>
         /// <param name="buffer">The output buffer.</param>
-        public void Render(IReadWriteTexture2D<Float4> buffer);
+        public void Render(IReadWriteNormalizedTexture2D<Float4> buffer);
     }
 }
